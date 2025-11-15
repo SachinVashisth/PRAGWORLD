@@ -1,0 +1,27 @@
+Given below is a seed conversation where the first speaker enquires to the second speaker about some <agents>, <objects>, and their <locations>.
+
+You have to perform the following tasks:
+Task 1: Identify all the <agents>, <objects>, and <locations> from the seed conversation excluding the speakers.
+Task 2: Select two <agents> (say A1, and A2), <objects> (say O1, and O2), and <locations> (say L1, and L2) identified in Task 1 at random and create two triplets i.e. (A1, O1, L1), and (A2, O2, L2).
+Task 3: Generate a new conversation using the <agents>, <objects>, and <locations> identified in Task 1 with special emphasis on the triplets (A1, O1, L1), and (A2, O2, L2) created in Task 2.
+
+Note:- Generate a total of only 10 pair of utterances (i.e. 20 sentences) between the speaker and the listener and follow the structure of the Original Conversation.
+
+Show the Output of all the tasks like:
+Task 1 Output:
+<agents>:
+<objects>:
+<locations>:
+
+Task 2 Output:
+Selected Agents:
+Selected Objects:
+Selected Locations:
+First Triplet (A1, O1, L1):
+Second Triplet (A2, O2, L2):
+
+Task 3 Output:
+Generated Conversation:
+
+Seed Conversation:
+[[$$SEED_CONVERSATION$$]]

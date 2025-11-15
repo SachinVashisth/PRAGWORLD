@@ -1,0 +1,1 @@
+python patching_DE_perturb_to_orig.py --data_path_filtered predictions/Predictions_llama_3.1_70b_instruct_manual_filtered.json --model_name meta-llama/Llama-3.1-70B-Instruct --store_path predictions/residual_deltas_llama_3.1_70b_instruct_manual_filtered.json

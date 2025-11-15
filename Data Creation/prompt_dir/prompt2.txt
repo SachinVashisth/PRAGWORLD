@@ -1,0 +1,43 @@
+Given below is a seed conversation where the first speaker enquires to the second speaker about some <objects> and <agents>.
+
+Enquiry about the <objects>:
+A) Location of the <objects>
+    1. did you see the <object>? ("you" implies the second speaker)
+	2. what about the <object>?
+	3. where can i get the <objects>?
+	4. where can i find the <objects>?
+	5. how about the <objects>?
+
+B) Quantity of those <objects> at a particular location.
+    1. how many <objects> are in the <location>?
+	2. Are all <objects> there? ("there" implies a <location> in the previous utterances.)
+    3. are some of them in the <location>? ("some" implies an <object> in the previous utterances.)
+
+Enquiry about the <agents>:
+A) Location of the <agents>
+    1. were you there? ("you" implies the second speaker.)
+	2. then where?
+    3. was <agent> there?
+	4. where did you see <agent>? ("you" implies the second speaker.)
+	5. where was he? ("he" implies an <agent> mentioned in the previous utterances.)
+
+B) <agents> who put those <objects> at a particular location.
+	1. did <agent> place the <objects> in the <location>?
+	2. did <agent> put the <objects> there? ("there" implies a <location> mentioned in the previous utterances.)
+	3. did you put them there> ("you", "them", and "there" implies second speaker, <object>, and <location> respectively mentioned in the previous utterances.)
+	4. did he leave the <objects> in the <location>? ("he" implies an <agent> mentioned in the previous utterances.)
+
+You have to perform the following tasks:
+Task 1: Identify all the <agents>, <objects>, and <locations> from the seed conversation excluding the speakers.
+Task 2: Select two <agents> (say A1, and A2), <objects> (say O1, and O2), and <locations> (say L1, and L2) identified in Task 1 and at random and create two triplets i.e. (A1, O1, L1), and (A2, O2, L2).
+Task 3: Create a conversation, ensuring that the first 5 pair of utterances contains enquiry about (A1, O1, and L1) and next 5 pair of utterances contains enquiry about (A2, O2, and L2). You can take help from the aforementioned examples regarding enquiry about the <objects> and <agents> to create the conversations.
+
+Note:- It is important that the structure of conversation should be such that it requires to create a world model with respect to the first speaker which maintains the states while iterating through all 5 pairs of utterances for answering the question.
+
+Show the Output of all the tasks like:
+Task 1 Output:
+Task 2 Output:
+Task 3 Output:
+
+Seed Conversation:
+[[$$SEED_CONVERSATION$$]]

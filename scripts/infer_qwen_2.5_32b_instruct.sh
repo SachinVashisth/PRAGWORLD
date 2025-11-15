@@ -1,0 +1,1 @@
+python prompt_open_llm.py --llm Qwen/Qwen2.5-32B-Instruct --exp_name 500_final --data_path "Manual_Dataset_500_Final.csv"

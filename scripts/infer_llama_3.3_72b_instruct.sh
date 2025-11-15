@@ -1,0 +1,1 @@
+python prompt_open_llm.py --llm meta-llama/Llama-3.3-70B-Instruct --exp_name "${1}" --data_path "${2}"

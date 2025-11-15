@@ -1,0 +1,1 @@
+{"data_path": "/home/sachin/World/worldmodel/data/entitytrackingfinal.csv", "exp_name": "sachin_entitytracking_364", "max_len": 1223, "llm": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct", "debug": false, "quantization": 0, "quantization_type": 4, "data_folder": "data", "checkpoint_path": null, "output_dir": "runs", "date": "25_Mar28_1253_07"}

@@ -1,0 +1,1 @@
+python DataSelection.py --model_name meta-llama/Llama-3.1-70B-Instruct --store_path predictions/Predictions_llama_3.1_70b_instruct_manual.json --store_path_filtered predictions/Predictions_llama_3.1_70b_instruct_manual_filtered.json

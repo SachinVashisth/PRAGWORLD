@@ -1,0 +1,1 @@
+python DataSelection.py --model_name Qwen/Qwen2.5-72B-Instruct --store_path predictions/Predictions_qwen_2.5_72b_instruct_manual.json --store_path_filtered predictions/Predictions_qwen_2.5_72b_instruct_manual_filtered.json

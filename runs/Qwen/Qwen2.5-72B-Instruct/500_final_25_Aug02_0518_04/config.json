@@ -1,0 +1,1 @@
+{"data_path": "Manual_Dataset_500_Final.csv", "exp_name": "500_final", "max_len": 200, "llm": "Qwen/Qwen2.5-72B-Instruct", "debug": false, "quantization": 0, "quantization_type": 4, "data_folder": "data", "checkpoint_path": null, "output_dir": "runs", "date": "25_Aug02_0518_04"}

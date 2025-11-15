@@ -1,0 +1,1 @@
+{"data_path": "/home/sachin/World/worldmodel/data/toy_dataset.csv", "exp_name": "Toyexp", "max_len": 304, "llm": "microsoft/Phi-3.5-mini-instruct", "debug": false, "quantization": 0, "quantization_type": 4, "data_folder": "data", "checkpoint_path": null, "output_dir": "runs", "date": "25_Oct10_0408_46"}

@@ -1,0 +1,34 @@
+Given below is a seed conversation where the first speaker enquires to the second speaker about some <items> and its <properties> like color, weight, quantity, quality, variation, cost, warranty, region of availability etc.
+
+You have to perform the following tasks:
+Task 1: Identify all the <agents>, <items>, and <properties> from the seed conversation excluding the speakers.
+Task 2: Select two <agents> (say A1, and A2), <items> (say I1, and I2), and <properties> (say P1, and P2) identified in Task 1 at random, and create two triplets i.e. (A1, I1, P1), and (A2, I2, P2). 
+NOTE: These two triplets i.e. (A1, I1, P1), and (A2, I2, P2) should not have the same entity. Generate the new entity if required.
+Task 3: Create a new conversation using the <agents>, <items>, and <properties> identified in Task 1 with special focus on the triplets (A1, I1, P1), and (A2, I2, P2) created in Task 2. The new conversation about both the triplets should include the structure of a Seller-Buyer conversation. In this setup, the first speaker takes on the role of the buyer/customer, while the second speaker acts as the seller.
+1) The buyer inquires about certain <items> from the seller.
+2) The seller describes or displays those <items> to the buyer.
+3) The buyer ask in detail about the properties of those <items> from the seller. The <properties> can be color, weight, quantity, quality, variation, cost, warranty, region of availability etc.
+4) The seller provides the requested details and presents all available options to the buyer.
+5) In some cases, the buyer asks for the seller’s recommendation on which <item> to choose, but this does not occur in every conversation.
+6) Finally, the buyer decides whether to purchase some <items> from the seller. In some cases, the buyer chooses not to buy any <items> due to different preferences regarding the <properties>, which the seller’s current inventory does not meet.
+
+Note:- It is important that the structure of conversation should be such that it requires to create a world model with respect to both the speakers which maintains the states.
+
+Show the Output of all the tasks like:
+Task 1 Output:
+<agents>:
+<items>:
+<properties>:
+
+Task 2 Output:
+Selected Agents:
+Selected Items:
+Selected Properties:
+First Triplet (A1, I1, P1):
+Second Triplet (A2, I2, P2):
+
+Task 3 Output:
+Generated Conversation:
+
+Seed Conversation:
+[[$$SEED_CONVERSATION$$]]

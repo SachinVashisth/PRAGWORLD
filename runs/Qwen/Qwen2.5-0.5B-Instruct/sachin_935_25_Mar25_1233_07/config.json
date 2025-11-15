@@ -1,0 +1,1 @@
+{"data_path": "/home/sachin/World/worldmodel/data/cicero_final_input.csv", "exp_name": "sachin_935", "max_len": 1223, "llm": "Qwen/Qwen2.5-0.5B-Instruct", "debug": false, "quantization": 0, "quantization_type": 4, "data_folder": "data", "checkpoint_path": null, "output_dir": "runs", "date": "25_Mar25_1233_07"}

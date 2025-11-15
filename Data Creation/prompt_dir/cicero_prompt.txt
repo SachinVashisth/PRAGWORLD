@@ -1,0 +1,32 @@
+Given below is a seed conversation where the first speaker enquires to the second speaker about topics like Doctor-patient appointment scheduling, Health Advice, or Medical Consultation. The conversation involves some <agents>, <medical entities>, and <locations>.
+
+You have to perform the following tasks:
+Task 1: Identify all the <agents>, <medical entities>, and <locations> from the seed conversation excluding the speakers.
+Task 2: Select two <agents> (say A1, and A2), <medical entities> (say M1, and M2), and <locations> (say L1, and L2) identified in Task 1 and at random, create two triplets i.e. (A1, M1, L1), and (A2, M2, L2). If we don't have enough <agents>, or <medical entities>, or <locations> identified in Task 1, then generate them.
+Task 3: Create a new conversation using the <agents>, <medical entities>, and <locations> identified in Task 1 with special focus on the triplets (A1, M1, L1), and (A2, M2, L2) created in Task 2. The new conversation about a specific tuple of type (<agents>, <medical entities>, <locations>) should be created around one of the five following questions related to that tuple:
+A) Causes: What <medical entities> caused <agent> to go to the <location>?
+B) Subsequent Events: What <agent> did regarding the <medical entities> after arriving at the <location>?
+C) Prerequisite: What happened before with the <agent> regarding <medical entities> that made <agent> to visit the <location>?
+D) Motivation: What motivated the <agent> to visit the <location> regarding the <medical entities>?
+E) Reaction: How <agent> reacted regarding the <medical entities> after reaching at the <location>?
+
+Note:- It is important that the structure of conversation should be such that it requires to create a world model with respect to both the speakers which maintains the states while iterating through all 10 pairs of utterances for answering the question.
+
+Show the Output of all the tasks like:
+Task 1 Output:
+<agents>:
+<medical entities>:
+<locations>:
+
+Task 2 Output:
+Selected Agents:
+Selected Medical Entities:
+Selected Locations:
+First Triplet (A1, M1, L1):
+Second Triplet (A2, M2, L2):
+
+Task 3 Output:
+Generated Conversation:
+
+Seed Conversation:
+[[$$SEED_CONVERSATION$$]]

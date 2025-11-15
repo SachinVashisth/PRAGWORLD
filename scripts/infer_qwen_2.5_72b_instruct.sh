@@ -1,0 +1,1 @@
+python prompt_open_llm.py --llm Qwen/Qwen2.5-72B-Instruct --exp_name "${1}" --data_path "${2}"
