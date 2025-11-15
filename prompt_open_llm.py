@@ -31,7 +31,7 @@ def save_exp_dir(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_path', type=str, help='path to dataset', 
-                        default="./data/world_model_probe_test_set_aryan_200.csv")
+                        default="Manual_Dataset_500_Final.csv")
     parser.add_argument("--exp_name", type=str, help="experiment name", required=True)
     parser.add_argument("--max_len", type=int, default=200, help="max number of rules")
     parser.add_argument("--llm", type=str, help="large language model type", required=True)
