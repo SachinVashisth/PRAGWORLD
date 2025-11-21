@@ -32,5 +32,5 @@ def load_test_set(path: str):
 
 # main
 if __name__ == "__main__":
-    data = load_test_set("./data/world_model_probe_test_set_aryan_200.csv")
+    data = load_test_set("Manual_Dataset_500_Final.csv")
     print(data[1])
