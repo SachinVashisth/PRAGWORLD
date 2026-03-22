@@ -50,10 +50,6 @@ _Note: For finetuning, a new conda environment can be created as per the instruc
 
 ### ✨ Citation
 ```bibtex
-@article{vashistha2025pragworld,
-    title={PRAGWORLD: A Benchmark Evaluating LLMs' Local World Model under Minimal Linguistic Alterations and Conversational Dynamics},
-    author={Vashistha, Sachin and Bibhuti, Aryan and Naik, Atharva and Tutek, Martin and Aditya, Somak},
-    journal={arXiv preprint arXiv:2511.13021},
-    year={2025}
-}
+@article{Vashistha_Bibhuti_Naik_Tutek_Aditya_2026, title={PRAGWORLD: A Benchmark Evaluating LLMs’ Local World Model Under Minimal Linguistic Alterations and Conversational Dynamics}, volume={40}, url={https://ojs.aaai.org/index.php/AAAI/article/view/40618}, DOI={10.1609/aaai.v40i39.40618}, abstractNote={Real-world conversations are rich with pragmatic elements, such as entity mentions, references, and implicatures.
+Understanding such nuances is a requirement for successful natural communication, and often requires building a local _world model_ which encodes such elements and captures the dynamics of their evolving states. However, it is not well-understood whether language models (LMs) construct or maintain a robust implicit representation of conversations. In this work, we evaluate the ability of LMs to encode and update their internal world model in dyadic conversations and test their _malleability_ under linguistic alterations. To facilitate this, we apply seven minimal linguistic alterations to conversations sourced from popular conversational QA datasets and construct a benchmark with two variants (i.e., Manual and Synthetic) comprising yes-no questions. We evaluate nine open and one closed source LMs and observe that they struggle to maintain robust accuracy. Our analysis unveils that LMs struggle to memorize crucial details, such as tracking entities under linguistic alterations to conversations. We then propose a dual-perspective interpretability framework which identifies transformer layers that are _useful_ or _harmful_ and highlights linguistic alterations most influenced by harmful layers, typically due to encoding spurious signals or relying on shortcuts. Inspired by these insights, we propose two layer-regularization based fine-tuning strategies that suppress the effect of the harmful layers.}, number={39}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Vashistha, Sachin and Bibhuti, Aryan and Naik, Atharva and Tutek, Martin and Aditya, Somak}, year={2026}, month={Mar.}, pages={33323-33331} }
 ```
